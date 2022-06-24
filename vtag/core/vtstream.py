@@ -51,6 +51,7 @@ class VTStream():
     def get(self, i_start, i_end=None):
         """
         get frames
+        it is a test
         """
         n =  1 if i_end is None else i_end - i_start
         frames = np.zeros((n, self.h, self.w), dtype=np.uint8)
